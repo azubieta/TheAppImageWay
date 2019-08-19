@@ -38,8 +38,8 @@ chmod a+x appimage-*
 
 echo "installing"
 sudo ./appimage-services-x86_64.AppImage self-install
-sudo mv appimage-appsdir-x86_64.AppImage /usr/bin/appimage-firstrun
-sudo ./appimage-firstrun-x86_64.AppImage self-install
+sudo mv appimage-firstrun-x86_64.AppImage /usr/bin/appimage-firstrun
+sudo ./appimage-appsdir-x86_64.AppImage self-install
 
 
 echo "Remove installers"
