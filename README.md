@@ -1,13 +1,13 @@
 # The AppImage Way
 
 This project attempts to bring the applications management user experience of the *Macintosh 
-System 1.0 ca. 1984* into modern GNU/Linux system. Which features **single file applications**, 
+System 1.0 ca. 1984* into modern GNU/Linux system. Featuring **single file applications**, 
 **transparent system integration** (no install required) and the **applications directory**.
 
-This project follows a well defined set of specifications that can be found in the 
-[SPECIFICATIONS FILE](https://github.com/azubieta/TheAppImageWay/blob/master/SPECIFICATION.md).
+The whole list of specifications for the user experience and the proposed system modifications 
+can be found at the: [SPECIFICATIONS FILE](https://github.com/azubieta/TheAppImageWay/blob/master/SPECIFICATION.md).
 
-To realize this user experience were created a set of tools:
+To realize this user experience were created the following tools:
 - [appimage-services](https://github.com/azubieta/AppImageServices) core integration service that ensures interoperability
  between tools and a solid user experience.
 - [appimage-firstrun](https://github.com/azubieta/appimage-firstrun) first run assistant to ease system integration and applications inspection
@@ -20,11 +20,10 @@ by providing file thumbnails, file metadata, native progress dialogs and more:
 - [gnome thumbnailer](https://github.com/azubieta/appimage-gnome-thumbnailer)
 
 
-
 **Installation instructions**
 
 The following script will allow you to install the whole AppImage user experience on your 
-system. It assumes that you have a modern GNU/Linux system (glib >= 2.40) with `systemd` 
+system. It assumes that you have a modern GNU/Linux system (`glib >= 2.40`) with `systemd` 
 and `wget` installed. 
 
  
