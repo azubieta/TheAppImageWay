@@ -100,7 +100,7 @@ Nevertheless developing such software stres and their corresponding clients is, 
 
 # Conclusions
 
-**The AppImage Way** represents a significant improvement and simplification for application management on GNU/Linux system. But it's far from being a novel idea in fact the Macintosh System 1.0 ca. 1984 already included such UX. So it's time for GNU/Linux desktop to match it and have applications packed as single files with icons, metadata, launcher integratioin and update actions right from the file manager.
+**The AppImage Way** represents a significant improvement and simplification for application management on GNU/Linux system. But it's far from being a novel idea in fact the Macintosh System 1.0 ca. 1984 already included such UX. So it's time for GNU/Linux desktop to match it and have applications packed as single files with icons, metadata, launcher integration and update actions right from the file manager.
 
 To make it real, a base service should be created in a way that every distribution can consume it and integrate it as part of their default UX. Keeping the interoperability between the different software components.
 
