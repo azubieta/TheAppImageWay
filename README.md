@@ -30,17 +30,20 @@ and `wget` installed.
 ```
 
 echo "Downloading tools"
-sudo wget https://github.com/azubieta/AppImageServices/releases/download/continuous/appimage-services-x86_64.AppImage -O /user/local/bin/appimage-services
-sudo wget https://github.com/azubieta/appimage-appsdir/releases/download/continuous/appimage-appsdir-x86_64.AppImage -O /usr/local/bin/appimage-appsdir
-sudo wget https://github.com/azubieta/appimage-firstrun/releases/download/continuous/appimage-firstrun-x86_64.AppImage -O /usr/local/bin/appimage-firstrun
+wget https://github.com/azubieta/AppImageServices/releases/download/continuous/appimage-services-x86_64.AppImage 
+wget https://github.com/azubieta/appimage-appsdir/releases/download/continuous/appimage-appsdir-x86_64.AppImage
+wget https://github.com/azubieta/appimage-firstrun/releases/download/continuous/appimage-firstrun-x86_64.AppImage
 
-sudo chmod a+x /usr/local/bin/appimage-*
-sudo ln -s /usr/local/bin/appimage-firstrun /usr/bin/appimage-firstrun
+chmod a+x appimage-*
 
-echo "installing services"
-sudo appimage-services self-install
-sudo appimage-appsdir self-install
+echo "installing"
+sudo ./appimage-services-x86_64.AppImage self-install
+sudo mv appimage-appsdir-x86_64.AppImage /usr/bin/appimage-firstrun
+sudo ./appimage-firstrun-x86_64.AppImage self-install
 
+
+echo "Remove installers"
+rm appimage-services-x86_64.AppImage appimage-firstrun-x86_64.AppImage
 ```
 
 _Non-root installation is possible but the `binfmt` handler will not be available. Making
