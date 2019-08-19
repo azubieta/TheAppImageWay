@@ -26,8 +26,10 @@ by providing file thumbnails, file metadata, native progress dialogs and more:
 The following script will allow you to install the whole AppImage user experience on your 
 system. It assumes that you have a modern GNU/Linux system (glib >= 2.40) with `systemd` 
 and `wget` installed. 
+
  
-```shell script
+```
+
 echo "Downloading tools"
 wget https://github.com/azubieta/AppImageServices/releases/download/continuous/appimage-services-x86_64.AppImage -O /user/local/bin/appimage-services
 wget https://github.com/azubieta/appimage-appsdir/releases/download/continuous/appimage-appsdir-x86_64.AppImage -O /usr/local/bin/appimage-appsdir
@@ -39,6 +41,7 @@ ln -s /usr/local/bin/appimage-firstrun /usr/bin/appimage-firstrun
 echo "installing services"
 sudo appimage-services self-install
 sudo appimage-appsdir self-install
+
 ```
 
 _Non-root installation is possible but the `binfmt` handler will not be available. Making
