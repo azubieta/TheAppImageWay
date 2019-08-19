@@ -5,4 +5,4 @@ github_username:  azubieta
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-merlot
+theme: jekyll-theme-slate
