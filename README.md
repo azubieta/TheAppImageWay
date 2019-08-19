@@ -31,12 +31,12 @@ and `wget` installed.
 ```
 
 echo "Downloading tools"
-wget https://github.com/azubieta/AppImageServices/releases/download/continuous/appimage-services-x86_64.AppImage -O /user/local/bin/appimage-services
-wget https://github.com/azubieta/appimage-appsdir/releases/download/continuous/appimage-appsdir-x86_64.AppImage -O /usr/local/bin/appimage-appsdir
-wget https://github.com/azubieta/appimage-firstrun/releases/download/continuous/appimage-firstrun-x86_64.AppImage -O /usr/local/bin/appimage-firstrun
+sudo wget https://github.com/azubieta/AppImageServices/releases/download/continuous/appimage-services-x86_64.AppImage -O /user/local/bin/appimage-services
+sudo wget https://github.com/azubieta/appimage-appsdir/releases/download/continuous/appimage-appsdir-x86_64.AppImage -O /usr/local/bin/appimage-appsdir
+sudo wget https://github.com/azubieta/appimage-firstrun/releases/download/continuous/appimage-firstrun-x86_64.AppImage -O /usr/local/bin/appimage-firstrun
 
-chmod a+x /usr/local/bin//appimage-*
-ln -s /usr/local/bin/appimage-firstrun /usr/bin/appimage-firstrun
+sudo chmod a+x /usr/local/bin/appimage-*
+sudo ln -s /usr/local/bin/appimage-firstrun /usr/bin/appimage-firstrun
 
 echo "installing services"
 sudo appimage-services self-install
