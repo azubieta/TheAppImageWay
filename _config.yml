@@ -1,1 +1,8 @@
+# Site settings
+title: The AppImage Way (UX Tools)
+twitter_username: azubieta90
+github_username:  azubieta
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-merlot
