@@ -43,7 +43,7 @@ sudo ./appimage-appsdir-x86_64.AppImage self-install
 
 
 echo "Remove installers"
-rm appimage-services-x86_64.AppImage appimage-firstrun-x86_64.AppImage
+rm appimage-services-x86_64.AppImage appimage-appsdir-x86_64.AppImage
 ```
 
 _Non-root installation is possible but the `binfmt` handler will not be available. Making
