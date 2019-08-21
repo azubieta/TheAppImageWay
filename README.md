@@ -4,7 +4,7 @@ This project attempts to bring the applications management user experience of th
 System 1.0 ca. 1984* into modern GNU/Linux system. Featuring **single file applications**, 
 **transparent system integration** (no install required) and the **applications directory**.
 
-[![Preview](https://img.youtube.com/vi/UPQ44LUxBTM/hqdefault.jpg)](https://www.youtube.com/watch?v=UPQ44LUxBTM "The AppImage Way in action")
+[![Preview](https://img.youtube.com/vi/UPQ44LUxBTM/sddefault.jpg)](https://www.youtube.com/watch?v=UPQ44LUxBTM "The AppImage Way in action")
 
 
 The whole list of specifications for the user experience and the proposed system modifications 
